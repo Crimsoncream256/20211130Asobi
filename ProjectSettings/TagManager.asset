@@ -9,6 +9,7 @@ TagManager:
   - Bounce
   - Jump
   - Turbo
+  - Rival
   layers:
   - Default
   - TransparentFX
