@@ -1960,26 +1960,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 936754374}
   offset: {x: 0, y: 15, z: -15}
---- !u!1 &975649915 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6960331987854750184, guid: 5ecae3d5cc769754c870d0f92bf5877a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6960331987034494795}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &975649921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 975649915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 064d43a451970c044bd19e74f39800c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goalText: {fileID: 221701949}
-  textLose: {fileID: 1104532473}
 --- !u!1001 &984758477
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3911,6 +3891,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1052268674480745282, guid: 5ecae3d5cc769754c870d0f92bf5877a,
+        type: 3}
+      propertyPath: goalText
+      value: 
+      objectReference: {fileID: 221701949}
+    - target: {fileID: 1052268674480745282, guid: 5ecae3d5cc769754c870d0f92bf5877a,
+        type: 3}
+      propertyPath: textLose
+      value: 
+      objectReference: {fileID: 1104532473}
     - target: {fileID: 6960331987854750184, guid: 5ecae3d5cc769754c870d0f92bf5877a,
         type: 3}
       propertyPath: m_Name
