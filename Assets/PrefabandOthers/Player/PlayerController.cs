@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public Text goalText;
+    //public Text goalText;
     public Text failText;
 
     public bool goalOn;
@@ -23,7 +23,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rB = GetComponent<Rigidbody>();
-        goalText.enabled = false;
+        //goalText.enabled = false;
         goalOn = false;
         failText.enabled = false;
     }
@@ -53,9 +53,9 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Goal")
         {
-            other.gameObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, 1);
+            //other.gameObject.GetComponent<Renderer>().material.color = new Color(1, 0, 0, 1);
             rB.AddForce(-rbVelo.x * 0.8f, 0, -rbVelo.z * 0.8f, ForceMode.Impulse);
-            goalText.enabled = true;
+            //goalText.enabled = true;
             goalOn = true;
         }
 
