@@ -125,10 +125,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b5fc641a17bd4d41b9d6c0ace0267b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: []
+  points:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   target: {fileID: 0}
   chaspeed: 0.05
-  origColor: {r: 0, g: 0, b: 0, a: 0}
+  origColor: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 0}
+  _matters:
+  - {fileID: 2100000, guid: 0e28e891cc0c9e749836720b7b2120da, type: 2}
+  - {fileID: 2100000, guid: eaa5e52f506bcfe428b621e8e539e1c1, type: 2}
 --- !u!135 &85716955691662435
 SphereCollider:
   m_ObjectHideFlags: 0

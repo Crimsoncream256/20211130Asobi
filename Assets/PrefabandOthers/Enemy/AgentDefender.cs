@@ -13,10 +13,13 @@ public class AgentDefender : MonoBehaviour
     public float chaspeed = 0.05f;
     public Color origColor;
 
+    public Material[] _matters;
+
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.autoBraking = false;
+        this.GetComponent<Renderer>().material = _matters[0];
         GotoNextPoint();
     }
 
@@ -40,6 +43,7 @@ public class AgentDefender : MonoBehaviour
             inArea = true;
             target = other.gameObject;
             GetComponent<Renderer>().material.color = new Color(255f / 255f, 65f / 255f, 26f / 255f, 255f / 255f);
+            this.GetComponent<Renderer>().material = _matters[1];
             EneChasing();
         }
     }
@@ -50,6 +54,7 @@ public class AgentDefender : MonoBehaviour
         {
             inArea = false;
             GetComponent<Renderer>().material.color = origColor;
+            this.GetComponent<Renderer>().material = _matters[0];
             GotoNextPoint();
         }
     }
@@ -64,6 +69,7 @@ public class AgentDefender : MonoBehaviour
         if (target.activeInHierarchy == false)
         {
             GetComponent<Renderer>().material.color = origColor;
+            this.GetComponent<Renderer>().material = _matters[0];
         }
         if (inArea == true && target.activeInHierarchy == true)
         {

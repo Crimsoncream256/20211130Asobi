@@ -2312,31 +2312,6 @@ PrefabInstance:
       objectReference: {fileID: 936754374}
     - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
         type: 3}
-      propertyPath: chaspeed
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
-        type: 3}
-      propertyPath: origColor.b
-      value: 0.49056602
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
-        type: 3}
-      propertyPath: origColor.g
-      value: 0.49056602
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
-        type: 3}
-      propertyPath: origColor.r
-      value: 0.49056602
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
-        type: 3}
-      propertyPath: points.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8202381614831194394, guid: bd1ca0ab790c0154ebe24a5e960298f3,
-        type: 3}
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 1395180677}
