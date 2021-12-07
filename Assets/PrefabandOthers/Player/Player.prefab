@@ -124,11 +124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3ccee7b5c60b0c44aa4426bb2c2cfb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goalText: {fileID: 0}
   failText: {fileID: 0}
   goalOn: 0
   speed: 1
   brake: 0.0001
-  jumpForce: 20
+  jumpForce: 40
   turboForce: 0.1
   explosion: {fileID: 0}

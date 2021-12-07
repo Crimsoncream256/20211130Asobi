@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
 {
     //public Text goalText;
     public Text failText;
+    public Text makeOshimiText;
 
     public bool goalOn;
     public float speed = 2.0f;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         //goalText.enabled = false;
         goalOn = false;
         failText.enabled = false;
+        makeOshimiText.enabled = false;
     }
     void Update()
     {
@@ -73,6 +75,10 @@ public class PlayerController : MonoBehaviour
             explosion.transform.position = other.transform.position;
             explosion.Play();
             failText.enabled = true;
+            if(goalOn == true)
+            {
+                makeOshimiText.enabled = true;
+            }
             this.gameObject.SetActive(false);
         }
 
